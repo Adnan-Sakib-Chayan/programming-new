@@ -131,13 +131,11 @@ ul li a{
 }
 <!--pricing-class-->
 
-.Pricing{
-    margin: 60px;
-    text-align: center;
-}
- .Pricing-class{
+.pricing-class{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     gap: 8px;
- }
+
+}
+ 
