@@ -34,6 +34,7 @@ nav {
     max-width: 1200px;
     margin: auto;
     padding: 8px ;
+    
 
 }
 
@@ -43,6 +44,8 @@ ul{
     list-style: none;
     gap: 20px;
     align-items: center;
+    color: antiquewhite;
+    
 
 }
 
@@ -53,13 +56,88 @@ ul li a{
 
 /*Hero section style*/
 
-.contenar {
+.hero-parent{
     background-image: url(/image/banner.jpg);
-     display:flex;
-    justify-content:center;
-    align-items:center;
-   width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
 }
-div {
-    color: red;
+.middle{
+    position:relative;
+    text-align:center;
+    color:#fff;
+    width:70%
 }
+.middle h1{
+    font-size:65px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.middle{
+    font-style:italic;
+}
+
+.middle p{
+    width:70%;
+    margin:auto;
+    font-size:18px;
+    line-height:28px;
+    margin-bottom:50px;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563eb;
+    color:#fff;
+    padding:16px 40px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+<!---end-->
+
+
+.Speakers{
+    text-align: center;
+}
+
+.Speakers-container{
+    margin-top: ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+ 
+.container img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+
+}
+.what-i-do-card{
+    margin-top: 20px;
+
+}
+<!--pricing-class-->
+
+.Pricing{
+    margin: 60px;
+    text-align: center;
+}
+ .Pricing-class{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+ }
