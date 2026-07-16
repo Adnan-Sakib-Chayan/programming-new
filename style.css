@@ -109,7 +109,7 @@ ul li a{
 }
 
 .Speakers-container{
-    margin-top: ;
+    margin-top: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -129,13 +129,56 @@ ul li a{
     margin-top: 20px;
 
 }
-<!--pricing-class-->
 
-.pricing-class{
-    margin-top: 20px;
+<!--price-start-->
+
+.pricing-section {
+    padding: 80px 8%;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.pricing-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.sub-date {
+    color: #6b7280;
+    margin-bottom: 50px;
+}
+
+.pricing-grid {
     display: flex;
-    justify-content: space-between;
-    gap: 8px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 40px 30px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+#pro {
+    background-color: #0d1b2a;
+    color: white;
+}
+.style{
+    width: 370.66px ;
+    height: 448px ;
+    padding: 32px ;
 
 }
- 
+.pricing section{
+    padding: 50px;
+    width: 1549px;
+    height: 711px;
+    justify-content: center;
+}
