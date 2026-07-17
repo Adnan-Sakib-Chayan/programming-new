@@ -125,7 +125,7 @@ ul li a{
 .card{
     padding: 10px;
     margin: 10px;
-    height;
+    
 }
 
 
@@ -145,6 +145,8 @@ ul li a{
     padding: 80px 8%;
     background-color: #f9fafb;
     text-align: center;
+    max-width: 1200px;
+    color: #1d4ed8;
 }
 
 .pricing-section h2 {
@@ -163,6 +165,16 @@ ul li a{
     gap: 30px;
     flex-wrap: wrap;
 }
+.pricing-class{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 1200px
+
+}
 
 .price-card {
     background: white;
@@ -180,10 +192,10 @@ ul li a{
     color: white;
 }
 .style{
-    width: 370.66px ;
-    height: 448px ;
-    padding: 32px ;
-    background-color: #f9fafb;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 
 }
 .pricing-section{
