@@ -28,7 +28,7 @@ header{
 
 }
 
-
+/* <!--Navbar start --> */
 
 nav {
     display: flex;
@@ -40,12 +40,12 @@ nav {
 
 }
 
-#nav-ul li{ 
+#nav-ul{ 
     display: flex;
-    /* justify-content:center; */
+    justify-content:center;
     list-style: none;
     gap: 20px;
-    /* align-items: center; */
+    align-items: center;
     color: antiquewhite;
     
 
@@ -55,8 +55,9 @@ nav {
 ul li a{
     text-decoration: none;
 }
+/* <!--Navbar end --> */
 
-/*Hero section style*/
+/* <!--Hero section start--> */
 
 .hero-parent{
     background-image: url(/image/banner.jpg);
@@ -105,9 +106,9 @@ ul li a{
 .btn:hover{
     background:#1d4ed8;
 }
-/* <!---end--> */
+/* <!--hero section end--> */
 
-
+ /* <!--speakers section start--> */
 .Speakers{
     text-align: center;
 }
@@ -116,7 +117,9 @@ ul li a{
     margin-top: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    
 }
+
  
 /* .Speakers-container img{
     height: 100%;
@@ -127,11 +130,13 @@ ul li a{
 .card{
     padding: 10px;
     margin: 10px;
-    
+   
 }
+/* <!--speakers section end--> */
 
 
-.what-i-do-parent{
+
+/* .what-i-do-parent{
     margin: 60px auto;
     text-align: center;
 
@@ -139,14 +144,27 @@ ul li a{
 .what-i-do-card{
     margin-top: 20px;
 
-}
+} */
 
-/* <!--price-start--> */
+
+/* <!-- pricing section start --> */
 
 .pricing{
-    width: 100%;
+    width: 1452px;
+    height: 659px;
     min-height: 100vh;
     background-color: #f3f4f6;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+.pricing-header{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
 }
 .pricing h2 {
     display: flex;
@@ -155,7 +173,7 @@ ul li a{
 .pricing p {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    
 }
 
 .what-i-do-card-container{
@@ -236,5 +254,82 @@ ul li a{
     border-radius: 5px;
     margin-top: 30px;
     cursor: pointer;
+}
+
+/* <!-- //pricing section end// --> */
+
+/* <!-- //schedule section start// --> */
+
+.schedule-section{
+    width:90%;
+    margin:80px auto;
+    text-align:center;
+}
+.schedule-section h2{
+    font-size:56px;
+    font-weight:700;
+    color:#05083b;
+    margin-bottom:60px;
+}
+.schedule-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+.schedule-card{
+    width:300px;
+    height:280px;
+    border:2px solid #e2e2e2;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    transition:.3s;
+    background:#fff;
+}
+.schedule-card h3{
+    font-size:34px;
+    color:#0d5eff;
+    font-weight:700;
+    margin-bottom:30px;
+}
+
+.schedule-card p{
+    font-size:24px;
+    color:#222;
+
+}
+
+/* <!-- //schedule section end// --> */
+
+/* <!-- footer section start --> */
+
+.footer{
+    width: 100%;
+    background: #0f1d2d;
+    padding: 35px 0;
+}
+.footer-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left p{
+    color: #fff;
+    font-size: 16px;
+}
+.footer-right{
+    display: flex;
+    gap: 30px;
+}
+.footer-right a{
+    color: #7c8796;
+    text-decoration: none;
+    font-size: 16px;
+   
 }
 
