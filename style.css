@@ -3,6 +3,7 @@
     padding:0;
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 header{
@@ -333,3 +334,4 @@ ul li a{
    
 }
 
+/* <!-- footer section end --> */
